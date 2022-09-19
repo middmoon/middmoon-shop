@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar{
+    background-color: black;
+    height: 150px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main{
+    color: white;
+    
+}
+
+.main li{
+    display: inline-block;
+    
+}
+
+.main li a{
+    
+    line-height: 150px;
+    margin: 8px;
+    color: rgb(181, 181, 181);
+
+}
+
+.main li a:hover
+{
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.main-1{
+    float: left;
+}
+
+.main-2{
+    float: right;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.content{
+    /* background-color: red; */
+    background-color: #f7f7f7;
+    height: auto;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.content-title, .content-detail{
+   display: block;
+   margin: auto;
+   text-align: center;
+}
+
+.content .content-title h4{
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 40px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.content .content-detail a{
+    color: black;
+    font-size: 15px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-weight: 400;
+    border: 1px solid black
+}
+
+.content .content-detail a:hover{
+    background-color: rgb(90, 90, 90);
+    color: aliceblue;
+    font-weight: 700;
+}
+
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.item{
+    border: 2px solid #f7f7f7;
+}
+
+.item:hover{
+    border: 2px solid black;
+}
+
+.categories a{
+    width: 300px;
+    height: auto;
+}
+
+.categories a img{
+    border: 2px solid white;
+}
+
+.categories div{
+    /* background-color: rebeccapurple;
+    text-align: center; */
+    margin: 0px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.item-pride{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.item a p{
+    margin: 8px auto;
+    color: black;
+    font-weight: 450;
+    width: 300px;
+}
+
+
+#mail-sub{
+    background-color: rgb(230, 230, 230);
+    padding: 1px;
+    border: 1px solid black;
+}
+
+.mail-box{
+    text-align: center;
+    margin: 40px auto;
+    width: 325px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.mail-box input{
+    border: none;
+    background-color: transparent;
+    padding: 10px 5px;
+    outline: none;
+}
+.mail-box input::placeholder{
+    font-size: 14px;
+    
+}
+#input-mail{
+    float: left;
+    line-height: 20px;
+}
+
+#submit{
+    padding: 10px 27px;
+    margin: 2px;
+    background-color: #2F674F;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+#submit:hover{
+    background-color: #19362a;
+    color: white;
+}
+
+#merch{
+    margin-top: 40px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-categories{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+}
+
+.footer-title h4{
+    padding: 10px;
+    display: inline;
+    border-bottom: 1px solid white;
+}
+
+.footer-title{
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+
+.footer-categories li{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-mail-box{
+    text-align: center;
+    margin: 20px auto;
+    width: 325px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.footer-detail{
+    padding: 10px;
+}
+
+.footer-detail a{
+    color: white;
+}
+
+
+/**:after,
+*:before{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.middmoon-header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    
+}
+
+.middmoon-header-menu{
+    padding-left: 60px;
+    margin: 0 auto;
+}
+
+.middmoon-header-menu-list{
+
+}
+
+.middmoon-header-menu-item{
+    display: inline;
+    line-height: 100px;
+    
+}
+
+.middmoon-header-menu-item-link{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    word-spacing: -7px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.middmoon-header-menu-middle-item-link{
+    padding: 40px 15px;
+    
+}
+
+
+.middmoon-header-logo{
+    width: 100px;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+        
+    
+}
+
+.middmoon-header-logo img{
+    width: 100px;
+    box-sizing: border-box;
+}
+
+#left{
+    margin-left:  0px;
+}
+*/
